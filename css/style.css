@@ -16,7 +16,7 @@ nav {
   align-items: center;
   padding: 1em 0;
 }
-ul {
+#ul2 {
   display: flex;
   align-items: center;
   gap: 2em;
@@ -106,6 +106,11 @@ h2 {
   border-radius: 50%;
   width: 1.5em;
 }
+.imgArticle-2 {
+  width: 15em;
+  height: auto;
+  margin-left: 1em;
+}
 .divImg {
   align-items: center;
   display: flex;
@@ -144,12 +149,12 @@ h2 {
   height: auto;
 }
 #discovery {
-  border-bottom: 1px solid black;
   width: 25em;
 }
 #discovery button {
   padding: 1em;
   margin: 0.3em;
+  opacity: 0.6;
 }
 #bookmark {
   display: flex;
@@ -162,11 +167,14 @@ h2 {
   flex-direction: column;
   display: flex;
 }
-#ul {
-  display: flex;
-  justify-content: flex-start;
-  gap: 1em;
-}
+
 #discovery h2 {
   margin-bottom: 1em;
+}
+#ul li {
+  display: inline-block;
+  padding: 0.3em 0.7em;
+}
+hr {
+  opacity: 0.5;
 }
