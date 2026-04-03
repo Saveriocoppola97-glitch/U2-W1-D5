@@ -1,0 +1,172 @@
+body {
+  font-family: "Spectral", serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+header {
+  background-color: #ffc017;
+  height: 23em;
+  border-bottom: 2px solid #866b21;
+}
+header img {
+  height: 1.2em;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  cursor: pointer;
+}
+ul li {
+  list-style-type: none;
+}
+header ul button {
+  text-decoration: none;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  cursor: pointer;
+}
+header div:nth-last-of-type(2) {
+  border-bottom: 1px solid #866b21;
+}
+header h1 {
+  font-size: 4em;
+}
+svg {
+  max-width: 18em;
+}
+header div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em 0;
+}
+#stay {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 2em;
+}
+#stay button {
+  text-decoration: none;
+  padding: 0.5em 2.5em;
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  cursor: pointer;
+}
+main {
+  padding: 2.5em 5em;
+}
+#trending {
+  display: flex;
+  align-items: center;
+  padding: 0 4.5em;
+}
+h2 {
+  font-weight: bold;
+}
+#allArticle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em 0;
+  gap: 2em 0;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+
+  width: 25em;
+  gap: 1em;
+}
+.article p {
+  font-weight: bold;
+}
+.article time {
+  font-weight: 100;
+  color: #707170;
+}
+.numberArticle {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+}
+.numberr {
+  color: #e6e7e7;
+  font-size: 2em;
+}
+.imgArticle {
+  border-radius: 50%;
+  width: 1.5em;
+}
+.divImg {
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+}
+.numberArticle span::before {
+  content: "•";
+  margin: 0 6px 0 5px;
+}
+.article img {
+  width: 1em;
+}
+.divStar {
+  display: flex;
+  gap: 4px;
+}
+
+#sectionMain {
+  display: flex;
+  gap: 3em;
+  padding: 4em;
+  border-top: 1px solid black;
+}
+#listArticle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#listArticle span::before {
+  content: "•";
+  margin: 0 6px 0 5px;
+}
+.imgArticle2 {
+  width: 15em;
+  height: auto;
+}
+#discovery {
+  border-bottom: 1px solid black;
+  width: 25em;
+}
+#discovery button {
+  padding: 1em;
+  margin: 0.3em;
+}
+#bookmark {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 33em;
+}
+.vertical {
+  gap: 3em;
+  flex-direction: column;
+  display: flex;
+}
+#ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+}
+#discovery h2 {
+  margin-bottom: 1em;
+}
